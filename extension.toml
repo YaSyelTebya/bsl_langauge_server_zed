@@ -1,0 +1,15 @@
+id = "bsl-language-server-zed"
+name = "BSL LS for Zed"
+version = "0.0.1"
+schema_version = 1
+authors = ["Nikita Yanke nikitayanke970@gmail.com"]
+description = "Adds support of BSL LS to Zed"
+repository = "https://github.com/your-name/my-zed-extension"
+
+[grammars.bsl]
+repository = "https://github.com/alkoleft/tree-sitter-bsl"
+rev = "71c1fce00c412bd80c840a0355a87c0ab1534c8f"
+
+[language_servers.bsl]
+name = "bsl-language-server"
+language = "Bsl"

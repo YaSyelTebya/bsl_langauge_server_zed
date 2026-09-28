@@ -1,0 +1,4 @@
+name = "Bsl"
+grammar = "bsl"
+path_suffixes = ["bsl"]
+line_comments = ["//"]

@@ -1,0 +1,10 @@
+[package]
+name = "bsl_langauge_server_zed"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+zed_extension_api = "0.7.0"
+
+[lib]
+crate-type = ["cdylib"]
